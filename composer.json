@@ -45,7 +45,7 @@
     },
     "target-dir": "JMS/JobQueueBundle",
     "replace": {
-        "jms/job-queue-bundle": "~1.4.1"
+        "jms/job-queue-bundle": "^1.4"
     },
     "extra": {
         "branch-alias": {
