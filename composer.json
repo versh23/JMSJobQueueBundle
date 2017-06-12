@@ -1,5 +1,5 @@
 {
-    "name":         "jms/job-queue-bundle",
+    "name":         "versh/job-queue-bundle",
     "description":  "Allows to schedule Symfony2 console commands as jobs.",
     "keywords":     ["job","queue"],
     "homepage":     "http://jmsyst.com/bundles/JMSJobQueueBundle",
@@ -44,6 +44,9 @@
         "psr-0": { "JMS\\JobQueueBundle": "" }
     },
     "target-dir": "JMS/JobQueueBundle",
+    "replace": {
+        "jms/job-queue-bundle": "~1.4.1"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "2.0.x-dev"
